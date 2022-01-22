@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -33,7 +33,7 @@ function Sliders() {
 
   var settings = {
     dots: false,
-    arrows:  false,
+    arrows: false,
     infinite: true,
     autoplay: true,
     speed: 500,
@@ -42,17 +42,19 @@ function Sliders() {
   };
 
   return (
-    <div className="bg-whito py-12 flex justify-center">
-      <div className="w-8/12">
-        <Slider {...settings}>
-          {sliderContents.map((sliderContent, index) => (
-            <div key={index}>
-              <img src={require(`../images/${sliderContent.content}`)} alt="" className="w-24 h-20" />
-            </div>
-          ))}
-        </Slider>
+    <section id="Partners">
+      <div className="bg-whito py-12 pt-20 md:pt-40 flex justify-center">
+        <div className="w-8/12">
+          <Slider {...settings}>
+            {sliderContents.map((sliderContent, index) => (
+              <div key={index}>
+                <img src={require(`../images/${sliderContent.content}`)} alt="" className="w-24 h-20" />
+              </div>
+            ))}
+          </Slider>
+        </div>
       </div>
-    </div>
+    </section>
   )
 }
 

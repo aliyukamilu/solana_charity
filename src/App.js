@@ -1,4 +1,4 @@
-import { Navbar, Welcome, Sliders, Services, Transactions } from "./components";
+import { Navbar, Welcome, Sliders, About, Token, Roadmap, Footer} from "./components";
 
 function App() {
   return (
@@ -8,6 +8,10 @@ function App() {
         <Welcome />
       </div>
         <Sliders />
+        <About />
+        <Token />
+        <Roadmap />
+        <Footer />
     </div>
   );
 }
