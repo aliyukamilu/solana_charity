@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 
 import { FaFacebookF } from 'react-icons/fa'
 import { FaTwitter } from 'react-icons/fa'

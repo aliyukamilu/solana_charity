@@ -5,7 +5,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import logo from "../images/logo.png";
 
 const NavBarItem = ({ title, classprops }) => (
-  <li className={`mx-4 cursor-pointer ${classprops}`}>{title}</li>
+  <a href={`#${title}`} className={`mx-4 cursor-pointer hover:translate-y-1 ease-in transition duration-600 ${classprops}`}>{title}</a>
 );
 
 const Navbar = () => {
@@ -37,7 +37,7 @@ const Navbar = () => {
             flex flex-col justify-start items-end rounded-md blue-glassmorphism text-white animate-slide-in"
           >
             <li className="text-xl w-full my-2"><AiOutlineClose onClick={() => setToggleMenu(false)} /></li>
-            {["Market", "Exchange", "Tutorials", "Wallets"].map(
+            {["About", "Partners", "Tokennomics", "Roadmap", "Information"].map(
               (item, index) => <NavBarItem key={item + index} title={item} classprops="my-2 text-lg" />,
             )}
           </ul>
