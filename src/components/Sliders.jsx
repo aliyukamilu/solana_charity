@@ -38,13 +38,30 @@ function Sliders() {
     autoplay: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (
     <section id="Partners">
-      <div className="bg-whito py-12 pt-20 md:pt-40 flex justify-center">
-        <div className="w-8/12">
+      <div className="bg-whito py-12 px-4 pt-20 md:pt-40 flex justify-center">
+        <div className="w-full sm:w-8/12">
           <Slider {...settings}>
             {sliderContents.map((sliderContent, index) => (
               <div key={index}>
