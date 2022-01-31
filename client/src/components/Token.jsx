@@ -77,7 +77,7 @@ function Token() {
     ]
   };
   return (
-    <section className="mb-20" id="Token">
+    <section className="mb-20" id="Tokennomics">
       <Headerinfo sectionName="Token" sectionTitle="TOKENOMICS" />
       <h5 className="text-center mt-20 text-2xl">Distribution</h5>
 
