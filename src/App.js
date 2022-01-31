@@ -1,18 +1,23 @@
-import { Navbar, Welcome, Sliders, About, Token, Roadmap, Footer } from "./components";
+import Home from './pages/Home'
+import Contract from './pages/Contract';
+
+import { render } from "react-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="min-h-screen" style={{ overflowX: 'hidden' }}>
-      <div className="gradient-bg-welcome">
-        <Navbar />
-        <Welcome />
+    <BrowserRouter>
+      <div className="min-h-screen" style={{ overflowX: 'hidden' }}>
+        <Routes>
+        <Route path="/contract" element={<Contract />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
       </div>
-      <Sliders />
-      <About />
-      <Token />
-      <Roadmap />
-      <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 

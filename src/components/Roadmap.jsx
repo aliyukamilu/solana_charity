@@ -36,7 +36,7 @@ export default function Roadmap() {
   return (
     <section id="Roadmap">
       <Headerinfo sectionName="Map" sectionTitle="Our roadmap" />
-      <div class="flex flex-1 md:p-20 py-12 px-4 mt-20">
+      <div className="flex flex-1 md:p-20 py-12 px-4 mt-20">
         <div className="timeline">
           {roadmaps.map((roadmap, index) => (
             <div className="timeline-item" key={index}>
@@ -45,7 +45,7 @@ export default function Roadmap() {
               <div className="timeline-content timeline-card p-12 js--fadeInLeft">
 
                 <h2 className="font-bold -ml-5">{roadmap.title}</h2>
-                <div class="date">{roadmap.date}</div>
+                <div className="date">{roadmap.date}</div>
                 <ul className="list-disc">
                   {roadmap.lists.map((listing, index) => (
                     <li key={index} className="font-light">{listing}</li>

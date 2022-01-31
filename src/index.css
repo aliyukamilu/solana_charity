@@ -3,12 +3,14 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
 :root {
   --primaryCol: #FB4570;
   --secCol: #FB6B90;
-  --theWhite: #EFEBE0
+  --theWhite: #EFEBE0;
 
 }
+
 html {
   padding: 0;
   margin: 0;
@@ -71,6 +73,7 @@ body {
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
+
 .text-gradient {
   background-color: #fff;
   background-image: radial-gradient(at 4% 36%, hsla(0, 0%, 100%, 1) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%);
@@ -191,7 +194,7 @@ button.bg-primary:hover {
   display: inline-block;
   color: #FFFFFF;
   padding: 10px;
-  border-radius: 0 5px 0 0 ;
+  border-radius: 0 5px 0 0;
   position: absolute;
   font-size: 14px;
   top: 0;
@@ -228,4 +231,59 @@ button.bg-primary:hover {
     border-width: 10px 15px 10px 0;
     border-color: transparent #f5f5f5 transparent transparent;
   }
+}
+
+
+
+/* CONTRACT 
+
+*/
+
+.contractInput {
+  color: rgb(6, 37, 54);
+  width: 100%;
+  position: relative;
+  font-weight: 500;
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-image: initial;
+  flex: 1 1 auto;
+  font-size: 44px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0px;
+  appearance: textfield;
+  height: 70px;
+  background: none;
+  border-bottom: 0.0625rem solid rgb(6, 37, 54);
+  margin-right: 1.875rem;
+}
+
+.selecToken {
+  -webkit-box-align: center;
+  align-items: center;
+  color: #FB6B90;
+  font-size: 14px;
+  height: 70px;
+  font-weight: bold;
+  width: 220px;
+  border: 0.0625rem solid #f87191a8;
+  border-radius: 0.75rem;
+  /* background-color: rgb(236, 246, 255); */
+  background: #fae2e734;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+  padding: 0px 1.25rem;
+  position: relative;
+  margin: 0px 5px;
+}
+
+.selecToken.hideArrow {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }

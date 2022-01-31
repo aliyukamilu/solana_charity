@@ -1,0 +1,24 @@
+body {
+    background: #F5F6F8;
+}
+
+.sidebarContainer {
+    background: #fff;
+    min-height: 100%;
+    position: fixed;
+    left: 0;
+    /* z-index: -1; */
+    padding-top: 100px;
+    width: 320px;
+    box-shadow: rgb(0 0 0 / 6%) 7px 2px 26px 0px;
+    overflow: auto;
+    /* overflow-y: hidden; */
+}
+
+.mainContainer {
+    padding-left: 320px;
+}
+
+.navItemContainer .iconCont{
+    background: #faf2f4;
+}
