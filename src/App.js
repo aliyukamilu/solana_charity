@@ -1,5 +1,4 @@
 import Home from './pages/Home'
-import Contract from './pages/Contract';
 
 import { render } from "react-dom";
 import {
@@ -7,13 +6,18 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Dashboard from './pages/Dashboard';
+import Swap from './pages/Swap'
+import Send from './pages/Send';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="min-h-screen" style={{ overflowX: 'hidden' }}>
         <Routes>
-        <Route path="/contract" element={<Contract />} />
+          <Route path="/send" element={<Send />} />
+          <Route path="/swap" element={<Swap />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </div>
