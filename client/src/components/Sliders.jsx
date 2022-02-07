@@ -15,15 +15,15 @@ const sliderContents = [
     content: "serum.svg"
   },
   {
-    title: "Slide #4",
+    title: "Slide #3",
     content: "coinmarket.svg"
   },
   {
-    title: "Slide #5",
+    title: "Slide #4",
     content: "raydium.svg"
   },
   {
-    title: "Slide #6",
+    title: "Slide #5",
     content: "dexlab.svg"
   }
 
@@ -60,15 +60,15 @@ function Sliders() {
 
   return (
     <section id="Partners">
-      <div className="bg-whito py-12 px-4 pt-20 md:pt-40 flex justify-center">
-        <div className="w-full sm:w-8/12">
-          <Slider {...settings}>
+      <div className="bg-whito py-12 px-5 sm:px-20 pt-20 md:pt-20 flex justify-center">
+        <div className="w-full">
+          <div className="flex justify-around flex-wrap">
             {sliderContents.map((sliderContent, index) => (
-              <div key={index}>
-                <img src={require(`../images/${sliderContent.content}`)} alt="" className="w-24 h-20" />
+              <div key={index} className="flex-initial">
+                <img src={require(`../images/${sliderContent.content}`)} alt="" className="w-40 h-20" />
               </div>
             ))}
-          </Slider>
+          </div>
         </div>
       </div>
     </section>
