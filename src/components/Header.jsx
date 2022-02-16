@@ -11,9 +11,9 @@ const Header = () => {
   return (
     <div className="gradient-bg-welcome flex w-full px-20 h-20 shadow-xl fixed z-10">
       <div className="flex flex-row justify-between w-full items-center">
-        <div className="md:flex-[0.5] justify-center items-center">
+        <a href="../" className="md:flex-[0.5] justify-center items-center">
           <img src={require('../images/logo.png')} className="w-32 cursor-pointer" alt="" />
-        </div>
+        </a>
         <div className="flex flex-1 justify-end items-center">
           <div className="mr-3">
             <SolanaLogo style={{ width: 100 }} />
