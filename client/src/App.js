@@ -9,12 +9,14 @@ import {
 import Dashboard from './pages/Dashboard';
 import Swap from './pages/Swap'
 import Send from './pages/Send';
+import Airdrops from './pages/Airdrops'
 
 function App() {
   return (
     <BrowserRouter>
       <div className="min-h-screen" style={{ overflowX: 'hidden' }}>
         <Routes>
+          <Route path="/airdrops" element={<Airdrops />} />
           <Route path="/send" element={<Send />} />
           <Route path="/swap" element={<Swap />} />
           <Route path="/dashboard" element={<Dashboard />} />
