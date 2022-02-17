@@ -168,7 +168,7 @@ table {
 
 .kAJryw {
   width: 100%;
-  border-radius: 0.5625rem;
+  /* border-radius: 0.5625rem; */
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: rgb(255, 255, 255);
   margin-bottom: 0.625rem;
@@ -196,8 +196,8 @@ table {
 @media(max-width: 886px) {
   .sidebarContainer {
     width: 100%;
-    min-height: 5%;
-    padding-top: 10px;
+    min-height: 2%;
+    padding-top: 12px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -206,11 +206,21 @@ table {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     overflow-x: auto;
   }
 
   .mainContainer {
     padding-left: 0 !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .theImg {
+    display: none
+  }
+
+  .mainCont {
+    width: 92.333333%;
   }
 }

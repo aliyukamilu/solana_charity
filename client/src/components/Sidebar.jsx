@@ -16,7 +16,7 @@ const icons = [
 
 const Sidebar = () => {
     return (
-        <div className="sidebarContainer px-5">
+        <div className="sidebarContainer z-10 px-5">
             <div className="navItemContainer">
                 {['Dashboard', 'Swap', 'Send', 'Airdrops'].map((navItem, index) => (
                     <NavLink key={index} to={`/${navItem.toLowerCase()}`} className={(navData) => navData.isActive ? "navItem flex items-center mb-4 ACTIVE" : "navItem flex items-center mb-4"}>

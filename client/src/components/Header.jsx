@@ -9,13 +9,13 @@ const Header = () => {
   const [walletConnected, setwalletConnected] = React.useState(false);
   let address = '0x52EdB5dFCE4640644AD366b660ee9b78872b16c3'
   return (
-    <div className="gradient-bg-welcome flex w-full px-20 h-20 shadow-xl fixed z-10">
+    <div className="gradient-bg-welcome flex w-full px-1 md:px-20 h-20 shadow-xl fixed z-20">
       <div className="flex flex-row justify-between w-full items-center">
         <a href="../" className="md:flex-[0.5] justify-center items-center">
           <img src={require('../images/logo.png')} className="w-32 cursor-pointer" alt="" />
         </a>
         <div className="flex flex-1 justify-end items-center">
-          <div className="mr-3">
+          <div className="mr-3 xs:hidden theImg">
             <SolanaLogo style={{ width: 100 }} />
           </div>
           {walletConnected ?

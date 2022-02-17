@@ -234,3 +234,8 @@ button.bg-primary:hover {
 }
 
 
+@media(max-width: 1023px) {
+  .echarts-for-react {
+    width: 100vw !important;
+  }
+}
