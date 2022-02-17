@@ -17,7 +17,7 @@ const Dashboard = () => {
           <div className="formCont mt-10 mb-20">
 
             <div className="flex flex-col justify-center items-center">
-              <div className="w-5/6">
+              <div className="w-5/6 mainCont">
                 <h2 className="mb-5 text-bold text-2xl">Airdrop</h2>
                 <div className="bg-white rounded-2xl shadow-sm px-7 py-10">
                   <h2 className="text-lg">Solana Angel Airdrop #1</h2>

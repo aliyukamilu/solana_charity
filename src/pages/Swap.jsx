@@ -18,7 +18,7 @@ const Swap = () => {
           <div className="formCont mt-10">
 
             <div className="flex flex-col justify-center items-center">
-              <div className="w-5/6">
+              <div className="w-5/6 mainCont">
                 <h2 className="mb-5 text-bold text-2xl">Swap</h2>
                 <div className="bg-white rounded-2xl shadow-sm px-7 py-10">
                   <p className="text-sm ">From</p>

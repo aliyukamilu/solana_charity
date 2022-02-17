@@ -18,10 +18,11 @@ const Dashboard = () => {
 
 
             <div className="flex flex-col justify-center items-center">
-              <div className="w-5/6">
+              <div className="w-5/6 mainCont">
                 <h2 className="mb-5 text-bold text-2xl text-left">Dashboard</h2>
                 <div className="bg-white rounded-2xl shadow-sm px-7 py-10">
                   <h5>Latest Transactions</h5>
+                  <div className="table-responsive overflow-x-auto">
                   <table className="transactionTable mt-5">
                     <thead className="jCUfmF">
                       <th>From</th>
@@ -38,6 +39,8 @@ const Dashboard = () => {
                       </tr>
                     </tbody>
                   </table>
+                  </div>
+
                 </div>
 
               </div>
