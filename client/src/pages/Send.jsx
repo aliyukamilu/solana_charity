@@ -47,7 +47,7 @@ const Send = () => {
                     <button
                       type='button'
                       onClick={handleSubmit}
-                      className="text-white w-6/12 py-5 mt-5 border-[1px] p-2 bg-[#f3315e] rounded-lg cursor-pointer"
+                      className="text-white w-6/12 py-5 mt-5 border-[1px] p-2 bg-primary rounded-lg cursor-pointer"
                     >
                       Send Now
                     </button>

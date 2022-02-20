@@ -22,7 +22,7 @@ const Dashboard = () => {
                 <div className="bg-white rounded-2xl shadow-sm px-7 py-10">
                   <h2 className="text-lg">Solana Angel Airdrop #1</h2>
                   <p className="text-[#F3315E]">Ongoing</p>
-                  <p className="text-xs mt-3">1,000,000,000 Solana Angels Tokens to be distributed. You must complete the simple tasks to qualify for the 200 $ANGELS token worth $20. And extra 20 $ANGELS ($2) for each referral. </p>
+                  <p className="text-xs mt-3">200,000,000 Solana Angels tokens to be distributed. You must complete the simple tasks to qualify. </p>
 
                   <table className="table kAJryw mt-5">
                     <tr>

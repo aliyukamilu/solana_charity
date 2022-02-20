@@ -23,8 +23,8 @@ const Navbar = () => {
         {["About", "Partners", "Tokennomics", "Roadmap", "Information"].map((item, index) => (
           <NavBarItem key={item + index} title={item} />
         ))}
-        <Link to="/dashboard">
-          <li className="bg-primary py-2 px-7 mx-4 rounded-full cursor-pointer">
+        <Link to="/dashboard" >
+          <li className="bg-secondary py-2 px-7 mx-4 rounded-full cursor-pointer">
             GAP DEX
           </li>
         </Link>

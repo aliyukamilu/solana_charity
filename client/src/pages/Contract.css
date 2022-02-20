@@ -22,7 +22,7 @@ body {
 }
 
 .navItemContainer .iconCont {
-  background: #faf2f4;
+  background: #f2f7fa;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,10 +30,10 @@ body {
 
 .navItem.ACTIVE {
   color: rgb(255, 255, 255);
-  background: linear-gradient(to right, #FB6B90, #f3315e);
+  background: linear-gradient(to right, #230c36, #28b7ec);
   border-bottom: none;
   font-weight: 600;
-  box-shadow: rgba(243, 49, 94, 0.459) 0px 0.25rem 0.75rem 0px;
+  box-shadow: rgb(40 183 236) 0px 0.25rem 0.75rem 0px;
   border-radius: 10px;
 }
 
@@ -44,11 +44,11 @@ body {
 }
 
 .navItem.ACTIVE .iconCont {
-  background: #6e0b22;
+  background: #28b7ec;
 }
 
 .navItem:hover .iconCont {
-  background: #6e0b22;
+  background: #0767b6;
   color: #fff;
 }
 
@@ -93,15 +93,15 @@ body {
 .selecToken {
   -webkit-box-align: center;
   align-items: center;
-  color: #FB6B90;
+  color: #6bdefb;
   font-size: 14px;
   height: 70px;
   font-weight: bold;
   width: 220px;
-  border: 0.0625rem solid #f87191a8;
+  border: 0.0625rem solid #71d9f8a8;
   border-radius: 0.75rem;
   /* background-color: rgb(236, 246, 255); */
-  background: #fae2e734;
+  background: #e2f4fa34;
   outline: none;
   cursor: pointer;
   user-select: none;

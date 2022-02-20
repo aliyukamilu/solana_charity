@@ -5,8 +5,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --primaryCol: #FB4570;
-  --secCol: #FB6B90;
+  --primaryCol: #0e2a33a6;
+  --secCol: #1d3144bd;
   --theWhite: #EFEBE0;
 
 }
@@ -24,7 +24,7 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #EFEBE0;
+  background: #0a0800;
 }
 
 .gradient-bg-welcome {
@@ -32,7 +32,7 @@ body {
   background-image:
     radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
     radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
-    radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
+    radial-gradient(at 100% 0%, rgb(6, 129, 145) 0, transparent 50%);
 }
 
 .gradient-bg-services {
@@ -82,19 +82,23 @@ body {
 }
 
 .bg-primary {
-  background: #FB4570;
+  background: #1d7ba7;
 }
 
 button.bg-primary:hover {
-  background: #f3315e;
+  background: #07b7ec;
 }
 
 .bg-secondary {
-  background: #FB6B90;
+  background: #051e29;
+}
+
+button.bg-secondary:hover {
+  background: #07b7ec;
 }
 
 .bg-whito {
-  background: #EFEBE0
+  background: #1a3a4d50
 }
 
 
@@ -103,7 +107,7 @@ button.bg-primary:hover {
 }
 
 .sectionTitle {
-  color: #fb6b8f17;
+  color: #152b3d33;
   font-family: "Trebuchet MS", Sans-serif;
   font-size: 150px;
   font-weight: 600;
@@ -162,7 +166,7 @@ button.bg-primary:hover {
   position: relative;
   width: 45%;
   border-radius: 4px;
-  background: #f5f5f5;
+  background: #1929388e;
   /* box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3); */
 }
 
@@ -238,4 +242,8 @@ button.bg-primary:hover {
   .echarts-for-react {
     width: 100vw !important;
   }
+}
+
+.text-center {
+  text-align: center;
 }
