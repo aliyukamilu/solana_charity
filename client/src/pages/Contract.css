@@ -93,15 +93,15 @@ body {
 .selecToken {
   -webkit-box-align: center;
   align-items: center;
-  color: #6bdefb;
+  color: #19333a;
   font-size: 14px;
   height: 70px;
   font-weight: bold;
   width: 220px;
-  border: 0.0625rem solid #71d9f8a8;
+  border: 0.15rem solid #1a31382c;
   border-radius: 0.75rem;
   /* background-color: rgb(236, 246, 255); */
-  background: #e2f4fa34;
+  background: #1e373f34;
   outline: none;
   cursor: pointer;
   user-select: none;

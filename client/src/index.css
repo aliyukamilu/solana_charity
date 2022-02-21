@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --primaryCol: #0e2a33a6;
+  --primaryCol: #333c40;
   --secCol: #1d3144bd;
   --theWhite: #EFEBE0;
 
@@ -93,8 +93,9 @@ button.bg-primary:hover {
   background: #051e29;
 }
 
-button.bg-secondary:hover {
+.bg-secondary:hover {
   background: #07b7ec;
+  color: #051e29;
 }
 
 .bg-whito {
@@ -123,7 +124,7 @@ button.bg-secondary:hover {
 
 .timeline::before {
   content: "";
-  background: #fb6b8f50;
+  background: #333c40;
   width: 5px;
   height: 95%;
   position: absolute;

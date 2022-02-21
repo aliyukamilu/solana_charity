@@ -25,7 +25,7 @@ const Navbar = () => {
         ))}
         <Link to="/dashboard" >
           <li className="bg-secondary py-2 px-7 mx-4 rounded-full cursor-pointer">
-            GAP DEX
+            ANGEL DEX
           </li>
         </Link>
       </ul>
@@ -38,7 +38,7 @@ const Navbar = () => {
         )}
         {toggleMenu && (
           <ul
-            className="z-10 fixed -top-0 -right-2 p-3 w-[70vw] h-screen shadow-2xl md:hidden list-none
+            className="z-10 fixed -top-0 -right-2 p-3 w-[35vw] shadow-2xl md:hidden list-none
             flex flex-col justify-start items-end rounded-md blue-glassmorphism text-white animate-slide-in"
           >
             <li className="text-xl w-full my-2"><AiOutlineClose onClick={() => setToggleMenu(false)} /></li>

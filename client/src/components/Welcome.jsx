@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from "react-router-dom"
 import { FaFacebookF } from 'react-icons/fa'
 import { FaTwitter } from 'react-icons/fa'
 import { FaTelegramPlane } from 'react-icons/fa'
@@ -19,8 +19,10 @@ const Welcome = () => {
           <p className="text-left mt-5 text-white text-center font-light md:w-9/12 w-11/12 text-base">
           Angel enables users to navigate the complex landscape of digital assets with a connected, compliant, and secure suite of solutions across all platform without fear.          </p>
           <div className="flex flex-row mt-10">
-            <Button title="Launch GAP DEX" customClass="mr-10 bg-primary" />
-            <Button title="Join Presale 🔥" customClass="mr-10 bg-primary" />
+            <Link to="Dashboard">
+            <Button title="ANGEL DEX" customClass="mr-10 bg-primary" />
+            </Link>
+            <Button title="PRESALE 🔥" customClass="mr-10 bg-primary" />
           </div>
           <div className="flex flex-row mt-10 ml-6">
             <SocialIcons />

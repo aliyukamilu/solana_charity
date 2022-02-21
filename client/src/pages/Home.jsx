@@ -9,8 +9,8 @@ function Home() {
         <Welcome />
       </div>
       <About />
-      <Sliders />
       <Token />
+      <Sliders />
       <Roadmap />
       <Footer />
     </>

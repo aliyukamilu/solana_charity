@@ -44,11 +44,11 @@ export default function Roadmap() {
 
               <div className="timeline-content timeline-card p-12 js--fadeInLeft">
 
-                <h2 className="font-bold -ml-5">{roadmap.title}</h2>
+                <h2 className="font-bold text-2xl mb-1 -ml-5">{roadmap.title}</h2>
                 <div className="date">{roadmap.date}</div>
                 <ul className="list-disc">
                   {roadmap.lists.map((listing, index) => (
-                    <li key={index} className="font-light">{listing}</li>
+                    <li key={index} className="font-bold text-white">{listing}</li>
                   ))}
 
                 </ul>

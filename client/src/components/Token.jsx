@@ -66,12 +66,12 @@ function Token() {
           show: false
         },
         data: [
-          { value: 25000000, name: 'Investors/partners' },
-          { value: 25000000, name: 'Liquidity' },
-          { value: 20000000, name: 'Airdrop/Marketing' },
-          { value: 10000000, name: 'First Network Engagement' },
-          { value: 10000000, name: 'Team' },
-          { value: 10000000, name: 'Burn' }
+          { value: 200000000, name: 'Investors/partners' },
+          { value: 200000000, name: 'Liquidity' },
+          { value: 200000000, name: 'Airdrop/Marketing' },
+          { value: 100000000, name: 'First Network Engagement' },
+          { value: 100000000, name: 'Team' },
+          { value: 200000000, name: 'Burn' }
         ]
       }
     ]
@@ -79,7 +79,7 @@ function Token() {
   return (
     <section className="mb-20" id="Tokennomics">
       <Headerinfo sectionName="Token" sectionTitle="TOKENOMICS" />
-      <h5 className="text-center mt-20 text-2xl">Distribution</h5>
+      {/* <h5 className="text-center mt-20 text-2xl">Distribution</h5> */}
 
       <div className="flex flex-col lg:flex-row md:p-20 py-12 px-4 items-center">
         <div className="flex flex-1 p-3">
@@ -98,7 +98,7 @@ function Token() {
         </div>
       </div>
 
-      <div className="fundRaise text-center mt-32">
+      <div className="fundRaise text-center mt-22">
           <p className="text-7xl font-extrabold">$960,000+ </p>
           <p className="text-2xl mt-3">Fund Raised by Investors</p>
       </div>
