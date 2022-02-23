@@ -18,27 +18,31 @@ const Dashboard = () => {
 
             <div className="flex flex-col justify-center items-center">
               <div className="w-5/6 mainCont">
-                <h2 className="mb-5 text-bold text-2xl text-left">Dashboard</h2>
+                <h2 className="mb-5 text-bold text-2xl text-left heading">Dashboard</h2>
                 <div className="bg-white rounded-2xl shadow-sm px-7 py-10">
                   <h5>Latest Transactions</h5>
-                  <div className="table-responsive overflow-x-auto">
-                  <table className="transactionTable mt-5">
-                    <thead className="jCUfmF">
-                      <th>From</th>
-                      <th>To</th>
-                      <th>Amount</th>
-                      <th>Time Stamp</th>
-                    </thead>
-                    <tbody className="kAJryw">
-                      <tr>
-                        <td className="gUEunp">{shortenAdd(address)}</td>
-                        <td className="gUEunp">{shortenAdd(address)}</td>
-                        <td className="gUEunp">0.2 SOL</td>
-                        <td className="gUEunp">23/02/2020, 6:22:24 PM</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <div className="flex justify-center items-center flex-col">
+                    <img src="/wallet.gif" width="200" alt="wallet" />
+                    <p>Connect Your Wallet to get Started</p>
                   </div>
+                  {/* <div className="table-responsive overflow-x-auto">
+                    <table className="transactionTable mt-5">
+                      <thead className="jCUfmF">
+                        <th>From</th>
+                        <th>To</th>
+                        <th>Amount</th>
+                        <th>Time Stamp</th>
+                      </thead>
+                      <tbody className="kAJryw">
+                        <tr>
+                          <td className="gUEunp">{shortenAdd(address)}</td>
+                          <td className="gUEunp">{shortenAdd(address)}</td>
+                          <td className="gUEunp">0.2 SOL</td>
+                          <td className="gUEunp">23/02/2020, 6:22:24 PM</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div> */}
 
                 </div>
 

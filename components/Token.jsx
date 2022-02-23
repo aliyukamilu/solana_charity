@@ -46,7 +46,10 @@ function Token() {
     },
     legend: {
       top: '0',
-      left: 'center'
+      left: 'center',
+      textStyle: {
+        color: '#ccc'
+      }
     },
     series: [
       {
@@ -100,8 +103,8 @@ function Token() {
       </div>
 
       <div className="fundRaise text-center py-20 mt-32 bg-[#EFEBE0]">
-          <p className="text-7xl font-extrabold">$960,000+ </p>
-          <p className="text-2xl mt-3">Fund Raised by Investors</p>
+          <p className="text-7xl font-extrabold text-black">$960,000+ </p>
+          <p className="text-2xl mt-3 text-black">Fund Raised by Investors</p>
       </div>
     </section>
   );

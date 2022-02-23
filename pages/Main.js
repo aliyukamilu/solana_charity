@@ -5,7 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import Dashboard from './dexpages/Dashboard';
-import Swap from './dexpages/Swap'
+import Swapping from './dexpages/Swapping'
 import Send from './dexpages/Send';
 import Airdrops from './dexpages/Airdrops'
 
@@ -18,7 +18,7 @@ function Main() {
           <Routes>
             <Route path="/airdrops" element={<Airdrops />} />
             <Route path="/send" element={<Send />} />
-            <Route path="/swap" element={<Swap />} />
+            <Route path="/swap" element={<Swapping />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/" element={<Home />} />
           </Routes>

@@ -5,6 +5,7 @@ import { FaTwitter } from 'react-icons/fa'
 import { FaTelegramPlane } from 'react-icons/fa'
 import { FaDiscord } from 'react-icons/fa'
 
+import { Link } from 'react-router-dom'
 import Button from './Button'
 import Image from 'next/image'
 
@@ -15,13 +16,16 @@ const Welcome = () => {
       <div className="flex md:flex-row flex-col items-start justify-between md:p-20 py-12 px-4 mt-20">
         <div className="flex flex-1 justify-start items-start flex-col mf:mr-10">
           <h1 className="text-3xl sm:text-5xl text-white text-gradient py-1">
-            SOLANA CHARITY <br /> <span className="text-2xl">The Future Of Bridging On Solana Ecosystem</span>
+            SOLANA ANGEL <br /> <span className="text-2xl">A Community built on Trust</span>
           </h1>
           <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-            Making Swapping and Cross-chain bridging easy and fun with a unique GUI for swift transactions.
+            Angel enable users to navigate the complex landscape of digital assets with a connected, compliant,
+            and secure suite of solutions across all platform without fear.
           </p>
           <div className="flex flex-row mt-10">
-            <Button title="Launch GAP DEX" customClass="mr-10 bg-primary" />
+            <Link to='dashboard'>
+              <Button title="Launch GAP DEX" customClass="mr-10 bg-primary" />
+            </Link>
             <Button title="Join Presale 🔥" customClass="mr-10 bg-primary" />
           </div>
           <div className="flex flex-row mt-10">

@@ -29,7 +29,7 @@ const Send = () => {
 
             <div className="flex flex-col justify-center items-center">
               <div className="w-5/6 mainCont">
-                <h2 className="mb-5 text-bold text-2xl">Send</h2>
+                <h2 className="mb-5 text-bold text-2xl heading">Send</h2>
                 <div className="bg-white rounded-2xl shadow-sm px-7 py-10">
                   <form action="">
                     <div className="flex mb-10">
@@ -46,7 +46,7 @@ const Send = () => {
                     <button
                       type='button'
                       onClick={handleSubmit}
-                      className="text-white w-6/12 py-5 mt-5 border-[1px] p-2 bg-[#f3315e] rounded-lg cursor-pointer"
+                      className="text-white w-6/12 py-5 mt-5 border-[1px] p-2 bg-primary rounded-lg cursor-pointer"
                     >
                       Send Now
                     </button>
