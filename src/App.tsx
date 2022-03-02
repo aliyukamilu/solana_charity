@@ -8,11 +8,11 @@ function App() {
     <div className="App">
       <div className="Banner">
         <div className="Banner-description">
-          Swap is unaudited software. Use at your own risk.
+          {/* Swap is unaudited software. Use at your own risk. */}
         </div>
       </div>
       <Routes />
-      <div className="social-buttons">
+      {/* <div className="social-buttons">
         <GitHubButton
           href="https://github.com/project-serum/oyster-swap"
           data-color-scheme="no-preference: light; light: light; dark: light;"
@@ -31,7 +31,7 @@ function App() {
         >
           Fork
         </GitHubButton>
-      </div>
+      </div> */}
     </div>
   );
 }
